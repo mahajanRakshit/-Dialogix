@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Responsive interactive chat application demo"><title>Dialogix – Interactive Chat Application</title>
+<link rel="stylesheet" href="css/style.css"><script src="js/app.js" defer></script></head>
+<body><main class="app">
+<aside class="sidebar"><div class="brand"><b>D</b> Dialogix</div><button id="newChat" class="new">＋ New conversation</button><p class="label">YOUR SPACE</p><div class="active">▤ &nbsp; All messages</div><div class="profile"><b>Y</b><span><strong>Your profile</strong><small>Personal workspace</small></span><i></i></div></aside>
+<section class="chat"><header><div class="avatar">D</div><div><strong>Dialogix Assistant</strong><small>● Online · Demo assistant</small></div><button id="clearChat" class="more" title="Clear conversation">⋯</button></header>
+<div class="welcome"><div class="big-avatar">D</div><h1>A better way to have a conversation.</h1><p>This is your Dialogix demo space. Send a message to get started.</p></div>
+<section id="messages" class="messages" aria-live="polite"></section>
+<div id="suggestions" class="suggestions"><button>What can you do?</button><button>Tell me a fun fact</button><button>Help me get started</button></div>
+<form id="messageForm" class="composer"><label class="sr" for="messageInput">Write a message</label><input id="messageInput" maxlength="1000" placeholder="Write your message..." required><span>Enter to send</span><button aria-label="Send message">➤</button></form>
+<footer>Dialogix demo · Messages are stored only in this browser</footer></section></main></body></html>

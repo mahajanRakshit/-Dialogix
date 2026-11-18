@@ -1,0 +1,1 @@
+Place optional images, icons, or other static assets here. The current version does not require image assets.\n
